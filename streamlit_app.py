@@ -1,8 +1,8 @@
 import streamlit as st
 import requests
 
-RECOGNIZE_API_URL = "http://18.143.150.46:8000/recognize"
-UPLOAD_API_URL = "http://18.143.150.46:8000/upload"  
+RECOGNIZE_API_URL = "http://13.250.58.129:8000/recognize"
+UPLOAD_API_URL = "http://13.250.58.129:8000/upload"  
 
 
 def upload_image_ui(label="Choose an image..."):
